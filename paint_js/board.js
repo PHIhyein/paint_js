@@ -48,6 +48,7 @@ canvas.addEventListener("click", onClickCanvas);    //클릭했을 때 채우기
 
 function onClickInit(){
     ctx.fillStyle = "white";
+    canvasBgColor = "white";
     ctx.fillRect(0, 0, 800, 800);
 }
 btnInit.addEventListener("click", onClickInit); //흰 색으로 초기화
